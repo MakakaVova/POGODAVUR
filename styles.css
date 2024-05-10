@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614644958_50-p-fon-leto-dlya-fotoshopa-55.jpg'); /* Путь к изображению для фона */
+    background-size: cover; /* Масштабирование изображения, чтобы оно занимало всю область */
+    background-position: center; /* Позиционирование изображения по центру */
+    background-repeat: no-repeat; /* Отключение повторения изображения */
+    background-attachment: fixed;
+    color: #FFFFFF; /* Белый цвет текста */
+    font-family: 'Arial', sans-serif; /* Шрифт Arial или любой другой без засечек */
+}
+
+h1 {
+    color:hwb(52 0% 0%); /* Ярко-желтый цвет заголовков */
+}
+
+p {
+    font-size: 20px; /* Исходный размер текста */
+    background-color: hsla(120, 100%, 50%, 0.5); /* Зеленый цвет фона для абзацев */
+    padding: 30px; /* Внутренний отступ для абзацев */
+    transition: font-size 5 s; /* Плавное изменение размера текста при наведении */
+    max-width: 1100px; /* Задает максимальную ширину для абзацев */
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Добавляет черную обводку вокруг текста */
+}
+
+p:hover {
+    font-size: 33px; /* Увеличенный размер текста при наведении */
+}
+
+a {
+    color: #2196F3; /* Ярко-синий цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.button {
+    background-color: #FFC107; /* Ярко-оранжевый цвет фона для кнопок */
+    color: #FFFFFF; /* Белый цвет текста на кнопках */
+    padding: 10px 20px; /* Внутренние отступы для кнопок */
+    border-radius: 100px; /* Скругленные углы для кнопок */
+}
+
+#title {
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 1%; /* Отступ сверху для размещения заглавной надписи посередине страницы */
+    color: hwb(52 0% 0%); /* Цвет текста заголовка */
+    font-size: 50px; /* Размер шрифта заголовка */
+    font-weight: bold; /* Жирное начертание текста */
+    -webkit-text-stroke: 2px black; /* для браузеров на основе WebKit, например, Chrome и Safari */
+    text-stroke: 2px black; /* стандартное свойство для текстовых обводок */
+}
+
